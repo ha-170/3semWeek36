@@ -6,5 +6,7 @@ Jeg får fejlmeddelelsen:
 "Unable to locate an executable at "/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/bin/apt" (-1)", 
 og jeg har ikke kunne søge hjælp til dette. Jeg må kigge på det i næste uge. Derfor ser afleveringen sådan her ud.
 
+#### Domænenavnet er dog www.halis.dk
+
 #### Hassanain Ali
 #### ha-170, E-klassen
