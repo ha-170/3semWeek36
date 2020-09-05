@@ -1,0 +1,49 @@
+Last login: Sat Sep  5 02:23:52 on ttys000
+hassanainali@Hassanains-MacBook-Pro-2 Week36 % git status
+fatal: not a git repository (or any of the parent directories): .git
+hassanainali@Hassanains-MacBook-Pro-2 Week36 % cd ..
+hassanainali@Hassanains-MacBook-Pro-2 3. semester % git status
+fatal: not a git repository (or any of the parent directories): .git
+hassanainali@Hassanains-MacBook-Pro-2 3. semester % cd ..
+hassanainali@Hassanains-MacBook-Pro-2 CPH business % cd week35
+cd: no such file or directory: week35
+hassanainali@Hassanains-MacBook-Pro-2 CPH business % cd Week35
+cd: no such file or directory: Week35
+hassanainali@Hassanains-MacBook-Pro-2 CPH business % ls
+1. semester	2. semester	3. semester	IT		Optagelse
+hassanainali@Hassanains-MacBook-Pro-2 CPH business % cd 3. semester
+cd: string not in pwd: 3.
+hassanainali@Hassanains-MacBook-Pro-2 CPH business % cd 3*
+hassanainali@Hassanains-MacBook-Pro-2 3. semester % ls
+HTTP opgaver.docx			Week35
+Krypteret hassanain.txt			Week36
+Wednesday status codes.docx		public og private key - hassanain.txt
+hassanainali@Hassanains-MacBook-Pro-2 3. semester % cd week35
+hassanainali@Hassanains-MacBook-Pro-2 week35 % ls
+02_Tirsdag	03_Onsdag	04_Torsdag	README.md
+hassanainali@Hassanains-MacBook-Pro-2 week35 % ls -a
+.		.DS_Store	.gitignore	03_Onsdag	README.md
+..		.git		02_Tirsdag	04_Torsdag
+hassanainali@Hassanains-MacBook-Pro-2 week35 % nano .gitignore
+
+  GNU nano 2.0.6              File: .gitignore                                  
+
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+
